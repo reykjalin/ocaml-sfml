@@ -235,6 +235,7 @@ class render_window :
     method set_mouse_cursor_invisible : unit -> unit
     method set_mouse_cursor_ungrabbed : unit -> unit
     method set_mouse_cursor_visible : unit -> unit
+    method set_mouse_cursor : cursor:SFCursor.t -> unit
     method set_position : pos:int * int -> unit
     method set_position2 : left:int -> top:int -> unit
     method set_size : size:int * int -> unit
